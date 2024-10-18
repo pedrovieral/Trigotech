@@ -34,3 +34,30 @@ Dificuldades
 A nossa maior dificuldade é que tentamos passar a linguagem de Python para Javascript, Nós até conseguimos.
 Mas quando fomos testar, acabava que o resultado não aparecia para o usuário.
 
+```
+import math
+
+def calculadora_seno():
+ """Uma função simples para calcular o seno de um angulo."""
+
+while True: 
+angulo = float(input("Digite o ângulo em graus: "))
+
+# Convertendo para radianos
+ angulo_radianos = math.radians (angulo)
+
+#Calculando o seno 
+resultado = math.sin(angulo_radianos)
+
+print(f"o seno de {angulo} graus é: (resultado: .4f}")
+
+#Perguntando se deseja continuar 
+continuar input("Deseja calcular outro seno? (sim/não): ") 
+if continuar. lower() != 'sim':
+
+break
+
+If __name__= "__main__":
+calculadora_ seno()
+
+
